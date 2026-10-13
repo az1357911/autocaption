@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー｜自動字幕</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<header>
+  <a class="brand" href="./">自動字幕</a>
+  <nav><a href="privacy.html" aria-current="page">プライバシーポリシー</a><a href="support.html">サポート</a></nav>
+  <div class="langs"><a href="../privacy.html" hreflang="zh-Hant">繁體中文</a> · <a href="../en/privacy.html" hreflang="en">English</a> · <span aria-current="true">日本語</span> · <a href="../ko/privacy.html" hreflang="ko">한국어</a> · <a href="../zh-hans/privacy.html" hreflang="zh-hans">简体中文</a> · <a href="../de/privacy.html" hreflang="de">Deutsch</a> · <a href="../fr/privacy.html" hreflang="fr">Français</a> · <a href="../es/privacy.html" hreflang="es">Español</a> · <a href="../it/privacy.html" hreflang="it">Italiano</a> · <a href="../pt-br/privacy.html" hreflang="pt-br">Português (Brasil)</a></div>
+</header>
+
+<h1>プライバシーポリシー</h1>
+<p class="muted">施行日：2026年10月13日</p>
+
+<div class="card">
+  <strong>要点</strong>：自動字幕の音声認識と字幕の区切りは、すべてお使いのMac上で行われます。開発者はサーバを持たず、あなたのビデオ、音声、字幕、その他いかなる個人情報も収集・保存せず、見ることもできません。字幕のテキストがあなたの選んだサービスに送信されるのは、あなた自身がクラウドAIによる翻訳またはAI校正を選んだ場合だけで、最初に送信する前に確認を求めます。
+</div>
+
+<h2>1. お使いのMac上で処理されるデータ</h2>
+<ul>
+  <li><strong>ビデオと音声</strong>：アプリは、あなたがパネルにドラッグしたFinal Cut Proプロジェクトが参照しているメディアファイルを読み込み、Appleの音声認識（SpeechAnalyzer）を使ってMac上でテキストに変換します。メディアファイルがどこかにアップロードされることはありません。</li>
+  <li><strong>字幕の区切り</strong>：AppleのオンデバイスのApple Intelligenceモデル（Foundation Models）を使い、Mac上で行います。</li>
+  <li><strong>Apple翻訳</strong>：「Apple翻訳」を選んだ場合は、macOSに内蔵された翻訳機能を使ってMac上で行います。</li>
+  <li><strong>設定と固有名詞リスト</strong>：お使いのMac上にのみ保存されます。</li>
+  <li><strong>APIキー</strong>：あなたが入力したAIサービスのキーはmacOSのキーチェーンに保存され、そのサービスに直接接続するためだけに使われます。開発者に送信されることはありません。</li>
+  <li><strong>診断ログ</strong>：アプリは、お使いのMac上に簡単な操作ログを書き込むことがあります（記録するのはファイル名だけで、フルパスは記録しません）。このログが誰かに自動的に送信されることはありません。</li>
+</ul>
+
+<h2>2. あなたが選んだ場合にのみ第三者に送信されるデータ</h2>
+<ul>
+  <li><strong>クラウドAIによる翻訳とAI校正</strong>：設定でクラウドAIサービス（OpenAI、Anthropic、Googleなど）を選び、ご自身のAPIキーを入力した場合、アプリは<strong>字幕のテキスト、固有名詞リスト、翻訳用に入力した補足説明</strong>を、選んだサービスに直接送信します。最初に送信する前に、アプリは送信する内容を説明し、同意を求めます。同意は「設定」＞「翻訳」でいつでも取り消せます。これらのデータは、そのサービスのプライバシーポリシーに従って処理されます。そのサービスの規約をご確認ください。ローカルのサービス（Ollama、LM Studio）を使う場合、データがお使いのコンピュータの外に出ることはありません。</li>
+  <li><strong>AIモデルの一覧</strong>：クラウドAIサービスを使い、アプリにモデルを自動で選ばせる場合、アプリはあなたのキーを使ってそのサービスに利用可能なモデルの一覧を照会し、OpenRouterから公開されているモデルの一覧と価格をダウンロードします（アカウントやキーは不要で、字幕の内容や個人情報は一切含まれません）。</li>
+  <li><strong>音声認識と翻訳のモデル</strong>：ある言語を初めて使うとき、macOSがAppleから対応する音声認識モデルまたは翻訳モデルをダウンロードします。これはAppleのプライバシーポリシーに従ってAppleが処理します。</li>
+</ul>
+
+<h2>3. サブスクリプションと支払い</h2>
+<p>サブスクリプションは、AppleのApp Storeを通じて購入・管理します。支払い情報はAppleが処理し、開発者があなたの氏名、支払い方法、Appleアカウントの情報を取得することはありません。開発者が受け取るのは、Appleが提供する集計済みの売上レポートだけです。アプリは、お使いのMac上でApp Storeにサブスクリプションの状態を確認します。</p>
+
+<h2>4. 開発者が行わないこと</h2>
+<ul>
+  <li>分析データの収集、利用状況のトラッキング、広告の表示は行いません。</li>
+  <li>アカウントの作成は不要です。</li>
+  <li>個人情報の販売や共有は一切行いません（そもそも開発者はあなたのデータを持っていません）。</li>
+</ul>
+
+<h2>5. 子ども</h2>
+<p>本アプリは13歳未満の子どもを対象としたものではなく、子どもの個人情報をそれと知りながら収集することもありません。</p>
+
+<h2>6. ポリシーの変更</h2>
+<p>本ポリシーを変更する場合は、このページを更新し、上記の施行日を改めます。重要な変更については、アプリのリリースノートでお知らせします。</p>
+
+<h2>7. お問い合わせ</h2>
+<p>プライバシーに関するご質問は、<a href="mailto:az1357911+autocaption@gmail.com">az1357911+autocaption@gmail.com</a>までメールでお問い合わせください。</p>
+
+<footer>© 2026 Wanchun Li・<a href="support.html">サポート</a>・<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">利用規約（EULA）</a></footer>
+</main>
+</body>
+</html>

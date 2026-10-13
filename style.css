@@ -39,3 +39,7 @@ a { color: var(--accent); }
 ul { padding-left: 22px; }
 footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 14px; color: var(--muted); font-size: 14px; }
 code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; }
+header .langs { flex-basis: 100%; font-size: 13px; color: var(--muted); }
+header .langs a { color: var(--muted); text-decoration: none; }
+header .langs a:hover { text-decoration: underline; }
+header .langs [aria-current] { color: var(--text); font-weight: 600; }
