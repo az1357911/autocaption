@@ -1,63 +1,9 @@
 <!doctype html>
-<html lang="de">
-<head>
-<meta charset="utf-8">
+<html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Datenschutzrichtlinie | AutoCaption</title>
-<link rel="stylesheet" href="../style.css">
-</head>
-<body>
-<main>
-<header>
-  <a class="brand" href="./">AutoCaption</a>
-  <nav><a href="privacy.html" aria-current="page">Datenschutzrichtlinie</a><a href="support.html">Support</a></nav>
-  <div class="langs"><a href="../privacy.html" hreflang="zh-Hant">繁體中文</a> · <a href="../en/privacy.html" hreflang="en">English</a> · <a href="../ja/privacy.html" hreflang="ja">日本語</a> · <a href="../ko/privacy.html" hreflang="ko">한국어</a> · <a href="../zh-hans/privacy.html" hreflang="zh-hans">简体中文</a> · <span aria-current="true">Deutsch</span> · <a href="../fr/privacy.html" hreflang="fr">Français</a> · <a href="../es/privacy.html" hreflang="es">Español</a> · <a href="../it/privacy.html" hreflang="it">Italiano</a> · <a href="../pt-br/privacy.html" hreflang="pt-br">Português (Brasil)</a></div>
-</header>
-
-<h1>Datenschutzrichtlinie</h1>
-<p class="muted">Gültig ab: 13. Oktober 2026</p>
-
-<div class="card">
-  <strong>Das Wichtigste</strong>: Spracherkennung und Aufteilung in Untertitel erfolgen bei AutoCaption auf deinem Mac. Der Entwickler betreibt keine Server. Er erhebt und speichert weder deine Videos, Audiodaten oder Untertitel noch irgendwelche personenbezogenen Daten und kann sie auch nicht einsehen. Nur wenn du selbst eine Cloud-KI-Übersetzung oder die KI-Korrektur verwendest, wird der Untertiteltext an den von dir gewählten Dienst gesendet – und vor dem ersten Senden wirst du gefragt.
-</div>
-
-<h2>1. Daten, die auf deinem Mac verarbeitet werden</h2>
-<ul>
-  <li><strong>Video und Audio</strong>: Die App liest die Mediendateien, auf die das Final Cut Pro-Projekt verweist, das du in das Fenster ziehst, und wandelt sie lokal mit der Spracherkennung von Apple (SpeechAnalyzer) in Text um. Mediendateien werden nirgendwohin hochgeladen.</li>
-  <li><strong>Aufteilung in Untertitel</strong>: Erfolgt lokal mit dem geräteinternen Modell von Apple Intelligence (Foundation Models).</li>
-  <li><strong>Apple-Übersetzung</strong>: Wenn du „Apple-Übersetzung“ auswählst, erfolgt die Übersetzung lokal mit der integrierten Übersetzungsfunktion von macOS.</li>
-  <li><strong>Einstellungen und Liste „Namen und Begriffe“</strong>: Werden nur auf deinem Mac gespeichert.</li>
-  <li><strong>API-Schlüssel</strong>: Die Schlüssel für KI-Dienste, die du eingibst, werden im Schlüsselbund von macOS gespeichert und nur verwendet, um eine direkte Verbindung zu diesem Dienst herzustellen. Sie werden nicht an den Entwickler übermittelt.</li>
-  <li><strong>Diagnoseprotokolle</strong>: Die App kann auf deinem Mac kurze Aktivitätsprotokolle schreiben (nur Dateinamen, keine vollständigen Pfade). Diese werden nicht automatisch an irgendjemanden gesendet.</li>
-</ul>
-
-<h2>2. Daten, die nur auf deine Wahl hin an Dritte gesendet werden</h2>
-<ul>
-  <li><strong>Cloud-KI-Übersetzung und KI-Korrektur</strong>: Wenn du in den Einstellungen einen Cloud-KI-Dienst (z. B. OpenAI, Anthropic oder Google) auswählst und deinen eigenen API-Schlüssel eingibst, sendet die App <strong>den Untertiteltext, deine Liste „Namen und Begriffe“ und deine Hinweise zur Übersetzung</strong> direkt an den gewählten Dienst. Vor dem ersten Senden erklärt die App, welche Inhalte gesendet werden, und bittet dich um deine Zustimmung; du kannst sie jederzeit unter „Einstellungen &gt; Übersetzung“ widerrufen. Diese Daten werden von dem jeweiligen Dienst gemäß seiner Datenschutzrichtlinie verarbeitet; bitte lies die Bedingungen dieses Dienstes. Bei lokalen Diensten (Ollama, LM Studio) verlassen die Daten deinen Computer nicht.</li>
-  <li><strong>KI-Modelllisten</strong>: Wenn du einen Cloud-KI-Dienst nutzt und die App das Modell automatisch auswählen lässt, fragt die App mit deinem Schlüssel bei diesem Dienst die Liste der verfügbaren Modelle ab und lädt die öffentliche Modellliste samt Preisen von OpenRouter herunter (ohne Account oder Schlüssel und ohne Untertitelinhalte oder personenbezogene Daten).</li>
-  <li><strong>Sprach- und Übersetzungsmodelle</strong>: Wenn du eine Sprache zum ersten Mal verwendest, lädt macOS das entsprechende Spracherkennungs- oder Übersetzungsmodell von Apple herunter. Dies wird von Apple gemäß der Datenschutzrichtlinie von Apple verarbeitet.</li>
-</ul>
-
-<h2>3. Abos und Zahlung</h2>
-<p>Abos werden über den App Store von Apple gekauft und verwaltet. Zahlungsdaten werden von Apple verarbeitet. Der Entwickler erhält weder deinen Namen noch deine Zahlungsmethode oder Daten deines Apple Accounts, sondern nur zusammengefasste Verkaufsberichte von Apple. Die App prüft deinen Abostatus von deinem Mac aus beim App Store.</p>
-
-<h2>4. Was der Entwickler nicht tut</h2>
-<ul>
-  <li>Keine Erhebung von Analysedaten, kein Nutzungstracking, keine Werbung.</li>
-  <li>Kein Account erforderlich.</li>
-  <li>Kein Verkauf und keine Weitergabe personenbezogener Daten (der Entwickler hat deine Daten ohnehin nicht).</li>
-</ul>
-
-<h2>5. Kinder</h2>
-<p>Diese App ist nicht für Kinder unter 13 Jahren konzipiert und erhebt nicht wissentlich personenbezogene Daten von Kindern.</p>
-
-<h2>6. Änderungen dieser Richtlinie</h2>
-<p>Wenn sich diese Richtlinie ändert, wird diese Seite aktualisiert und das oben genannte Datum („Gültig ab“) angepasst; wesentliche Änderungen werden in den Versionshinweisen der App mitgeteilt.</p>
-
-<h2>7. Kontakt</h2>
-<p>Bei Fragen zum Datenschutz schreib bitte eine E-Mail an <a href="mailto:aegisblanc+autocaption@gmail.com">aegisblanc+autocaption@gmail.com</a>.</p>
-
-<footer>© 2026 AutoCaption · <a href="support.html">Support</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Nutzungsbedingungen (EULA)</a></footer>
-</main>
-</body>
-</html>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://autocaption.aegisblanc.workers.dev/de/privacy.html">
+<meta http-equiv="refresh" content="0; url=https://autocaption.aegisblanc.workers.dev/de/privacy.html">
+<title>AutoCaption</title>
+<script>location.replace("https://autocaption.aegisblanc.workers.dev/de/privacy.html" + location.hash);</script>
+</head><body><p><a href="https://autocaption.aegisblanc.workers.dev/de/privacy.html">https://autocaption.aegisblanc.workers.dev/de/privacy.html</a></p></body></html>
